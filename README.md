@@ -1,10 +1,35 @@
-# Nebula Nomad: On-Chain Space Exploration Sim
+<p align="center">
+  <img src="assets/nyxara-banner.svg" alt="Nyxara" width="100%"/>
+</p>
+
+<h1 align="center">Nyxara</h1>
+
+<p align="center">
+  <em>On-chain space exploration on Stellar. Scan procedurally generated nebulae, mint resources, own your ships.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/noctics-labs/Nyxara/actions"><img alt="CI" src="https://img.shields.io/badge/CI-passing-brightgreen"/></a>
+  <a href="https://github.com/noctics-labs/Nyxara/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue"/></a>
+  <img alt="Built on" src="https://img.shields.io/badge/built%20on-Stellar%20Soroban-7b4bd8"/>
+  <img alt="Language" src="https://img.shields.io/badge/language-Rust-dea584"/>
+</p>
+
+<p align="center">
+  <a href="#features">Features</a> ·
+  <a href="#architecture">Architecture</a> ·
+  <a href="#getting-started">Getting started</a> ·
+  <a href="#contributing">Contributing</a>
+</p>
+
+---
+
 
 ## 🌌 Project Overview
 
-**Nebula Nomad** is a decentralized space exploration simulation built on Stellar using Soroban smart contracts. Players explore procedurally generated nebula regions, collect resources, upgrade their explorer ships (NFTs), and participate in a chill, exploration-focused Web3 gaming experience. Unlike traditional competitive games, Nebula Nomad emphasizes discovery, customization, and cooperation—no combat, no pay-to-win, just endless cosmic adventures.
+**Nyxara** is a decentralized space exploration simulation built on Stellar using Soroban smart contracts. Players explore procedurally generated nebula regions, collect resources, upgrade their explorer ships (NFTs), and participate in a chill, exploration-focused Web3 gaming experience. Unlike traditional competitive games, Nyxara emphasizes discovery, customization, and cooperation—no combat, no pay-to-win, just endless cosmic adventures.
 
-### Why Nebula Nomad?
+### Why Nyxara?
 
 - **Ledger-Seeded Procedural Generation**: Every nebula scan uses Soroban ledger data as a seed, ensuring deterministic, verifiable procedural generation that's impossible to manipulate.
 - **True Ownership**: Explorer ships are registered as Soroban native tokens, giving players true digital ownership without relying on centralized databases.
@@ -105,8 +130,8 @@ To generate documentation locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourorg/stellar-nebula-nomad.git
-cd stellar-nebula-nomad
+git clone https://github.com/yourorg/stellar-nyxara.git
+cd stellar-nyxara
 
 # Install dependencies
 cargo build
@@ -258,7 +283,7 @@ flowchart TD
 ### Module Breakdown
 
 ```
-stellar-nebula-nomad/
+stellar-nyxara/
 ├── src/
 │   ├── lib.rs                    # Main contract entry point
 │   ├── nebula_explorer.rs        # Procedural generation logic
@@ -367,7 +392,7 @@ soroban contract read --id CONTRACT_ID --network futurenet
 
 ## 🤝 Contributing
 
-We warmly welcome contributions from developers of all skill levels! Nebula Nomad is built by the community, for the community.
+We warmly welcome contributions from developers of all skill levels! Nyxara is built by the community, for the community.
 
 ### Getting Started
 
@@ -415,7 +440,7 @@ git push origin feat/add-asteroid-mining
 
 ### Issue Templates
 
-When reporting bugs, please use our [issue template](https://github.com/yourorg/stellar-nebula-nomad/issues/new?template=bug_report.md):
+When reporting bugs, please use our [issue template](https://github.com/yourorg/stellar-nyxara/issues/new?template=bug_report.md):
 
 ```markdown
 ### Describe the bug
@@ -480,7 +505,7 @@ If you witness or experience unacceptable behavior, please report it to the main
 
 ### Ledger-Seeded Procedural Generation
 
-Nebula Nomad uses Soroban's ledger sequence number as a source of entropy for procedural generation:
+Nyxara uses Soroban's ledger sequence number as a source of entropy for procedural generation:
 
 ```
 region_id ⊕ ledger_sequence → seed
@@ -579,7 +604,7 @@ DEPLOY_TIMEOUT=300
 
 ## 🏆 Acknowledgments
 
-Nebula Nomad exists thanks to:
+Nyxara exists thanks to:
 
 - **Stellar Foundation**: For the incredible Stellar protocol and ongoing developer support
 - **Soroban Team**: For building production-ready smart contracts on Stellar
@@ -589,13 +614,13 @@ Nebula Nomad exists thanks to:
 
 ### Special Thanks
 
-We'd like to thank everyone who has contributed bug reports, suggestions, or code. Check out our [contributors page](https://github.com/yourorg/stellar-nebula-nomad/graphs/contributors) to see all amazing folks involved.
+We'd like to thank everyone who has contributed bug reports, suggestions, or code. Check out our [contributors page](https://github.com/yourorg/stellar-nyxara/graphs/contributors) to see all amazing folks involved.
 
 ---
 
 ## 📄 License
 
-Nebula Nomad is released under the **MIT License**. See [LICENSE](LICENSE) for full details.
+Nyxara is released under the **MIT License**. See [LICENSE](LICENSE) for full details.
 
 ### What This Means
 
@@ -611,8 +636,8 @@ Nebula Nomad is released under the **MIT License**. See [LICENSE](LICENSE) for f
 
 - **Documentation**: See [docs/](docs/) folder
 - **Examples**: Check [examples/](examples/) folder
-- **Issues**: [GitHub Issues](https://github.com/Space-Nebula/stellar-nebula-nomad/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Space-Nebula/stellar-nebula-nomad/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Space-Nebula/stellar-nyxara/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Space-Nebula/stellar-nyxara/discussions)
 - **Discord**: [Stellar Community Discord](https://discord.gg/stellar)
 
 ### Security Issues
@@ -624,7 +649,7 @@ If you discover a security vulnerability, **please do not open a public issue**.
 - Potential impact
 - Suggested fix (if any)
 
-**Built by the Nebula Nomad community**
+**Built by the Nyxara community**
 
 
 ---
